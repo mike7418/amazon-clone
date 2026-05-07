@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wdth,wght@75..100,100..900&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+
+    /* colors */
+    --color-amazon-blue: rgb(19, 25, 33);               
+    --color-amazon-light: rgb(35, 47, 62);
+    --color-amazon-yellow: rgb(254, 189, 105);
+    --color-whiteText: rgb(255, 255, 255);
+    --color-lightText: rgb(204, 204, 204);
+    --color-quaintity_box: rgb(240, 242, 242);
+    --color-footerBottom: rgb(19, 26, 34);
+
+    /* width */
+    --maxWidth: "1440px";
+
+    /* screen sizes */
+    --screen-xs: "320px";
+    --screen-sm: "375px";
+    --screen-sml: "500px";
+    --screen-md: "667px";
+    --screen-mdl: "768px";
+    --screen-lg: "960px";
+    --screen-lgl: "1024px";
+    --screen-xl: "1280px";
+
+    /* screen fonts */
+    --font-titleFont: "Roboto";
+    --font-bodyFont: "Poppins";
+
+    /* box shadows */
+    --testShadow: "0 0 32px 1px rgba(199, 199, 199, 1)";
+    --amazonInput: "0 0 3px 2px rgb(228 121 17 / 50%)";
+}
+
+@layer components {
+    .headerHover {
+        @apply px-2 h-[80%] flex items-end gap-1 border border-transparent hover:border-white cursor-pointer duration-100
+    }
+
+    .departmentList {
+        @apply text-sm tracking-wide font-titleFont hover:text-white cursor-pointer duration-200 hover:bg-blue-600
+    }
+    .sidebarList {
+        @apply flex flex-row items-center justify-between  hover:bg-zinc-200 duration-200 cursor-pointer px-8 py-2
+    }
+    .sidebarCategory {
+        @apply text-amazon-light font-semibold text-[13px]
+    }
+    .footerLink {
+        @apply text-sm font-titleFont tracking-wide hover:text-white cursor-pointer duration-100 w-48
+    }
+}
