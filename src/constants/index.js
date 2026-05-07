@@ -184,3 +184,99 @@ export const helpItems = [
     {_id: "47", title: "Registry & Gift List" },
     {_id: "48", title: "Help" },
 ]
+
+{/* Bottom links */}
+
+export const musicItems = [
+    {_id: "10", title: "Streaming millions of songs" },
+]
+export const adsItems = [
+    {_id: "10", title: "Reach customers wherever they spend their time" },
+]
+export const pmItems = [
+    {_id: "10", title: "Score deals on fashion brands" },
+]
+export const abeItems = [
+    {_id: "10", title: "Books, art & collectibles" },   
+]
+export const acxItems = [
+    {_id: "10", title: "Audiobook Publishing Made Easy" }, 
+]
+export const sellItems = [
+    {_id: "10", title: "Start a Selling Account" }, 
+]
+export const veeqoItems = [
+    {_id: "10", title: "Shipping Software Inventory Management" }, 
+]
+export const busItems = [
+    {_id: "10", title: "Everything For Your Business" }, 
+]
+export const freshItems = [
+    {_id: "10", title: "Groceries & More Right To Your Door" }, 
+]
+export const globItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const homeItems = [
+    {_id: "10", title: "Experienced Pros Happiness Guarantee" }, 
+]
+export const webItems = [
+    {_id: "10", title: "Scalable Cloud Computing Services" }, 
+]
+export const audItems = [
+    {_id: "10", title: "Listen to Books & Original Audio Performances" }, 
+]
+export const mojoItems = [
+    {_id: "10", title: "Find Movie Box Office Data" }, 
+]
+export const goodrItems = [
+    {_id: "10", title: "Book reviews & recommendations" }, 
+]
+export const imdbItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const imdbProItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const kindleItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const photosItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const videoItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const bopItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const resaleItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const foodsItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const wootItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const zapItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const ringItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const eerItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const blinkItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const neighItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const pillItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]
+export const renewItems = [
+    {_id: "10", title: "Ship Orders Internationally" }, 
+]

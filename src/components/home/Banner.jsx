@@ -54,12 +54,12 @@ const Banner = () => {
                 <img src={bannerImgFive} alt="bannerImgFive" />
             </div>            
         </Slider>
-        <div className='relative -my-136 px-16 flex justify-between'>
-        <button className="button" onClick={previous}>
-          <BsChevronLeft className='h-52 w-14 text-gray-400' />
+        <div className='relative -my-136 px-16 flex justify-between '>
+        <button className="button cursor-pointer" onClick={previous}>
+          <BsChevronLeft className='h-22 w-14 text-gray-400' />
         </button>
-        <button className="button" onClick={next}>
-          <BsChevronRight className='h-52 w-14 text-gray-400' />
+        <button className="button cursor-pointer" onClick={next}>
+          <BsChevronRight className='h-22 w-14 text-gray-400' />
         </button>
       </div>
         </div>
