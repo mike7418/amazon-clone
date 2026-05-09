@@ -23,8 +23,8 @@ const Header = () => {
 
   return (
     
-    <div>
-      <div className="sticky top-0 z-50 w-full bg-amazon-blue text-white px-4 py-3 flex items-center gap-4">
+    <div className='w-full sticky top-0 z-50'>
+      <div className="w-full bg-amazon-blue text-white px-4 py-3 flex items-center gap-4">
         {/* Image start here */}
         <div className="headerHover">
           <img className="w-24 mt-2" src={logo} alt="" />
