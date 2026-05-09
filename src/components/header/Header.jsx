@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     
-    <div className='w-full sticky top-0 z-50'>
+    <div className='w-full fixed left-0 top-0 z-50'>
       <div className="w-full bg-amazon-blue text-white px-4 py-3 flex items-center gap-4">
         {/* Image start here */}
         <div className="headerHover">
