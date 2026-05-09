@@ -22,8 +22,9 @@ const Header = () => {
   },[])  
 
   return (
+    
     <div>
-      <div className="w-full bg-amazon-blue text-white px-4 py-3 flex items-center gap-4">
+      <div className="sticky top-0 z-50 w-full bg-amazon-blue text-white px-4 py-3 flex items-center gap-4">
         {/* Image start here */}
         <div className="headerHover">
           <img className="w-24 mt-2" src={logo} alt="" />
@@ -74,7 +75,7 @@ const Header = () => {
             <p className='text-[13px] mt-7 font-semibold text-whiteText'>Cart <span className='absolute text-xl top-0.5 w-4 left-7 bg-amazon-blue font-semibold text-amber-500 rounded-b-md'>0</span></p>
         </div>
       </div>
-      <HeaderBottom />
+      <HeaderBottom/>
     </div>
   )
 }
