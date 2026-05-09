@@ -32,7 +32,7 @@ const Banner = () => {
         slidesToScroll: 1,
     };
   return (
-    <div className='w-full'>
+    <div className='w-full -z-50 relative'>
         <div className='w-full max-h-full border-none'>
         <Slider ref={slider => {
           sliderRef = slider;

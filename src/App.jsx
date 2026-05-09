@@ -11,6 +11,7 @@ import {
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './pages/Home'
+import { productData } from './api/api'
 
 
 const Layout = () => {
@@ -26,7 +27,7 @@ const Layout = () => {
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
-      <Route index element={<Home/>}/>
+      <Route index element={<Home/>} loader={productData}/>
     </Route>
   ))
  
