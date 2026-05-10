@@ -33,7 +33,7 @@ function App() {
  
   return (
     <div className='font-bodyFont w-full pt-27'>
-     <RouterProvider router={router}> </RouterProvider>
+     <RouterProvider router={router} />
     </div>
   )
 }
