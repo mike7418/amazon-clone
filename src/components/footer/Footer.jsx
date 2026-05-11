@@ -5,7 +5,7 @@ import FooterBottom from './FooterBottom'
 
 const Footer = () => {
   return (
-    <div className='absolute w-full h-42 font-titleFont bottom-0'>
+    <div className='w-full h-42 font-titleFont bottom-0 -z-20'>
       <FooterTop />
       <FooterMiddle />
       <FooterBottom />
