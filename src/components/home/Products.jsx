@@ -11,7 +11,7 @@ const Products = () => {
      } = useLoaderData();
 
   return (
-    <div className='relative top-180 grid grid-cols-5 gap-14 mx-36 max-h-lvh h-screen'>
+    <div className='relative grid grid-cols-5 gap-14 mx-36 my-176 grow-0'>
         {
             productData.map((item) => (
                 <div>

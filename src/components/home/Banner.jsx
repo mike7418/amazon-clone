@@ -33,7 +33,7 @@ const Banner = () => {
     };
   return (
     <div className='w-full -z-50 relative'>
-        <div className='w-full max-h-full border-none'>
+        <div className='w-full'>
         <Slider ref={slider => {
           sliderRef = slider;
         }}
