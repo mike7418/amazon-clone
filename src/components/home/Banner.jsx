@@ -32,7 +32,7 @@ const Banner = () => {
         slidesToScroll: 1,
     };
   return (
-    <div className='w-full -z-40 relative'>
+    <div className='w-full z-0 relative'>
         <div className='w-full'>
         <Slider ref={slider => {
           sliderRef = slider;
