@@ -27,12 +27,12 @@ const Layout = () => {
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
-      <Route index element={<Home/>} loader={productData}/>
+      <Route index element={<Home className='bg-gray-200'/>} loader={productData}/>
     </Route>
   ))
  
   return (
-    <div className='font-bodyFont w-full pt-27'>
+    <div className='font-bodyFont w-full pt-27 flex flex-col'>
      <RouterProvider router={router} />
     </div>
   )

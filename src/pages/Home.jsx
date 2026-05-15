@@ -4,7 +4,7 @@ import Products from '../components/home/Products'
 
 const Home = () => {
   return (
-    <div>
+    <div className='flex-1'>
       <Banner/>
       <Products/>
     </div>

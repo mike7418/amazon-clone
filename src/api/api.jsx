@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export async function productData() {
-    const products = await axios.get("https://fakestoreapiserver.reactbd.org/api/amazonproducts");
+    const products = await axios.get("https://api.escuelajs.co/api/v1/products?offset=0&limit=20");
     return products;
 }

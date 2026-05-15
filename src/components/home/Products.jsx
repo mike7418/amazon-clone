@@ -6,21 +6,20 @@ import { useLoaderData } from 'react-router-dom'
 
 const Products = () => {
     
-    const {
-    data: {data: productData},
-     } = useLoaderData();
+    const { data } = useLoaderData();
+    const productData = data;
 
   return (
-    <div className='relative grid grid-cols-5 gap-14 mx-36 my-176 grow-0'>
+    <div className='max-w-screen-2xl grid grid-cols-4 mt-176 grow-0'>
         {
             productData.map((item) => (
-                <div>
+                <div className='bg-white p-8  w-68'>
                 <div key={item.id}>
-                    <img src={item.image} alt="ProductImg" className='w-52 h-64 border-[1px] border-amazon-light object-contain' />
+                    <img src={item.category.image} alt="ProductImg" className='bg-gray-400 w-52 h-52 object-contain' />
                 </div>
-                <div>
+                <div className='mt-4 w-52'>
                     <h2>{item.title}</h2>
-                    <p>{item.price}</p>
+                    <p>{`$${item.price.toFixed(2)}`}</p>
                 </div>
                 </div>
             ))
