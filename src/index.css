@@ -55,4 +55,8 @@
     .footerLink {
         @apply text-sm font-titleFont tracking-wide hover:text-white cursor-pointer duration-100 w-48
     }
+    .productLi {
+        @apply text-gray-600 hover:text-black text-sm font-medium border-b-[1px] border-b-gray-400 hover:border-b-gray-700 cursor-pointer duration-150 flex items-center justify-end gap-2 w-full
+    }
+        
 }
